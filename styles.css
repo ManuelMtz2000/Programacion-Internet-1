@@ -1,0 +1,54 @@
+.titulos{
+    font-family: arial;
+    text-align: center;
+    font-style: oblique;
+}
+.parrafo{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+#tabla{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline; 
+}
+#content{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+h1{
+    color: darkred;
+    font-size: 35px;
+}
+p{
+    border: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+a{
+    text-align: right;
+}
+a:hover{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+ul{
+    list-style: circle;
+}
+table{
+    background-color: mistyrose;
+    margin: auto;
+}
+th{
+    background-color: lightyellow;
+}
+img{
+    float: right;
+    margin-left: 25px;
+}
+body{
+    background-color: lightgrey;
+}
+h3{
+    font-size:20px;
+}

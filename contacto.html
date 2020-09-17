@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <a class="parrafo" href="index.html">Inicio</a>
+    <hr>
+    <form>
+        <!--input = FORMS PARA OBTENER VALORES-->
+        <label for="nombre">Nombre:
+            <input type="text" name="nombre">
+        </label>
+        <label for="email">Correo: <input type="email" name="correo" id="email"></label>
+        <label for="carrera" class="parrafo">Carrera: 
+        <select class="parrafo" name="select" id="carrera"><!--CAJA DE SELECCION-->
+            <option value="inni">Ingenieria en Informatica</option>
+            <option value="inco">Ingenieria en Computación</option>
+        </select>
+        </label>
+        <p><label for="fnacimiento" class="parrafo">Fecha de nacimiento:
+            <input type="date" name="fnacimiento">
+        </label>
+        </p>
+        <p>
+            Genero: 
+            <label for="hombre">
+                Hombre <input type="radio" name="genero" id="hombre" value="h">
+            </label>
+            <label for="mujer">
+                Mujer <input type="radio" name="genero" id="mujer" value="m">
+            </label>
+        </p>
+        <p><label class="parrafo">Contraseña: <input type="password" name="contra"></label></p>
+        <label for="comment"class="parrafo">Comentarios: </label>
+        <p><textarea name="comment" rows="10" cols="30"></textarea></p>
+        <label for="info" class="parrafo">Quiero recibir más información.<input type="checkbox" value="yes" name="info"></label>
+        <label for="promedio" class="parrafo">Promedio: <input type="number" name="promedio"></label>
+        <p><button>Registrar</button></p>
+    </form>
+</body>
+</html>
